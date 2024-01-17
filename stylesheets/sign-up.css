@@ -1,0 +1,116 @@
+.signup-bg {
+ background-image: url(../images/sign-up/signupbg.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.cs-shadow {
+ box-shadow:
+   2.7px 2.3px 2.5px rgba(0, 0, 0, 0.036),
+   6.4px 5.4px 5.8px rgba(0, 0, 0, 0.052),
+   11.4px 9.7px 10.4px rgba(0, 0, 0, 0.064),
+   18.9px 16.1px 17.2px rgba(0, 0, 0, 0.076),
+   31.2px 26.5px 28.3px rgba(0, 0, 0, 0.088),
+   54.6px 46.2px 49.5px rgba(0, 0, 0, 0.104),
+   118px 100px 107px rgba(0, 0, 0, 0.14);
+   background: rgba(67, 122, 92, 0.45);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(67, 122, 92, 0.225);
+}
+
+.errors {
+  /* background-color: rgba(255, 69, 1, 0.811); */
+  color:  #FABC2A;
+  font-size: small;
+  margin-left: 3px;
+  padding: 3px;
+  text-shadow: 0px 3px 4px rgba(255, 117, 117, 0.6);
+  display: none;
+}
+
+.success-icon {
+  color: whitesmoke;
+  display: none;
+}
+
+
+
+#pass-div {
+  display: none;
+  
+  font-size: small;
+  background-color: #2E424D;
+  width: 100%;
+  height: 20px;
+  border-radius: 5px;
+}
+
+
+.very-weak::after {
+
+  /* color: red;
+  font-weight: bold;
+  content: " Very weak"; */
+  background-color: #D73F40;
+  color: white;
+  width: 10%;
+  height: 100%;
+  border-radius: 5px;
+  transition: 0.5s;
+  font-weight: lighter;
+  content: " Bad";
+  display: flex;
+  justify-content: center;
+}
+
+.weak::after {
+  background-color: #DC6551;
+  width: 20%;
+  height: 100%;
+  border-radius: 5px;
+  transition: 0.5s;
+  color: white;
+  font-weight: lighter;
+  content: " Weak";
+  display: flex;
+  justify-content: center;
+}
+
+.average::after {
+  background-color: #F2B84F;
+  width: 40%;
+  height: 100%;
+  border-radius: 5px;
+  transition: 0.5s;
+  color: white;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  content: " Average";
+}
+
+.good::after {
+  background-color: #BDE952;
+  width: 75%;
+  height: 100%;
+  border-radius: 5px;
+  transition: 0.5s;
+  color: #3ba62f;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  content: " Good";
+}
+
+.excellent::after {
+  background-color: #3ba62f;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  transition: 0.5s;
+  color: white;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  content: " Excellent";
+}

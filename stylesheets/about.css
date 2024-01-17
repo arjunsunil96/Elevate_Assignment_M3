@@ -1,0 +1,8 @@
+.about-me {
+ /* height: 100vh;
+ min-height: auto; */
+ background-color: antiquewhite;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}

@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-bg {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #a0e9ff;
+    background: -webkit-linear-gradient(67deg, #a0e9ff 0%, #a8d7ff 50%, #b8d8e0 100%);
+    background: linear-gradient(67deg, #a0e9ff 0%, #a8d7ff 50%, #b8d8e0 100%);
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  box-shadow:
+      2.7px 2.3px 2.5px rgba(0, 0, 0, 0.036),
+      6.4px 5.4px 5.8px rgba(0, 0, 0, 0.052),
+      11.4px 9.7px 10.4px rgba(0, 0, 0, 0.064),
+      18.9px 16.1px 17.2px rgba(0, 0, 0, 0.076),
+      31.2px 26.5px 28.3px rgba(0, 0, 0, 0.088),
+      54.6px 46.2px 49.5px rgba(0, 0, 0, 0.104),
+      118px 100px 107px rgba(0, 0, 0, 0.14);
+  background: rgba(255, 255, 255, 0.45);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.225);
+}
+
+.form-signin .checkbox {
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.error {
+  text-align: left;
+  color: red;
+  font-size: small;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: none;
+}
